@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Photo Gallery</title>
+    <script src="feedback.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" type="text/css" href="galleryStyle.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="feedback.html">Feedback</a>
+        <a href="alt.html">Form</a>
+        <a href="gallery.html" id="active">Photo Gallery</a>
+        <div class="dropdown">
+            <button class="button">More</button>
+            <div class="content">
+                <a href="duck.html">Dancing duck</a>
+                <a href="gorillas.html">Dancing gorillas</a>
+                <a href="penguin.html">Dancing penguin</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="element">
+            <h2>Welcome To My Gallery</h2>
+        </div>
+        <div class="element">
+            <div class="images">
+                <a href="#">
+                    <div><img src="japansakuracar.jpg" alt="japanese sakura car theme"></div>
+                    <h3>This is The Title</h3>
+                    <p>This is the description</p>
+                </a>
+
+                <a href="#">
+                    <div></div>
+                    <h3>This is The Title</h3>
+                    <p>This is the description</p>
+                </a>
+
+                <a href="#">
+                    <div></div>
+                    <h3>This is The Title</h3>
+                    <p>This is the description</p>
+                </a>
+
+                <a href="#">
+                    <div></div>
+                    <h3>This is The Title</h3>
+                    <p>This is the description</p>
+                </a>
+                <a href="#">
+                    <div></div>
+                    <h3>This is The Title</h3>
+                    <p>This is the description</p>
+                </a><a href="#">
+                    <div></div>
+                    <h3>This is The Title</h3>
+                    <p>This is the description</p>
+                </a><a href="#">
+                    <div></div>
+                    <h3>This is The Title</h3>
+                    <p>This is the description</p>
+                </a><a href="#">
+                    <div></div>
+                    <h3>This is The Title</h3>
+                    <p>This is the description</p>
+                </a><a href="#">
+                    <div></div>
+                    <h3>This is The Title</h3>
+                    <p>This is the description</p>
+                </a><a href="#">
+                    <div></div>
+                    <h3>This is The Title</h3>
+                    <p>This is the description</p>
+                </a><a href="#">
+                    <div></div>
+                    <h3>This is The Title</h3>
+                    <p>This is the description</p>
+                </a><a href="#">
+                    <div></div>
+                    <h3>This is The Title</h3>
+                    <p>This is the description</p>
+                </a>
+            </div>
+        </div>
+        <div class="element">
+            <form action="upload.php" method="POST" enctype="multipart/form-data">
+                <input type="file" name="file">
+                <button type="submit" name="submit">UPLOAD IMAGE</button>
+                <br><br><label>Image name:</label><input type="text" name="imageName" placeholder="Image name...">
+                <br><label>Image title:</label><input type="text" name="imageTitle" placeholder="Image title...">
+                <br><label>Image description:</label><input type="text" name="imageDesc"
+                    placeholder="Talk about the image here...">
+
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

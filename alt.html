@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>This is my title</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+</head>
+
+<body>
+    <div class="navbar">
+        <a href="index.html">Home</a>
+        <a href="feedback.html">Feedback</a>
+        <a href="alt.html" id ="active">Form</a>
+        <a href = "gallery.html">Photo Gallery</a>
+        <div class="dropdown">
+            <button class="button">More</button>
+            <div class="content">
+                <a href="duck.html">Dancing duck</a>
+                <a href="gorillas.html">Dancing gorillas</a>
+                <a href="penguin.html">Dancing penguin</a>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="element">
+            <p>Hello World!! Try flexing me</p>
+            <p>Try changing me to light mode</p>
+            <button onclick="changeColor()">Toggle modes</button>
+            <p>Heres a list</p>
+            <ol>
+                <li>flowers</li>
+                <li>choclate</li>
+                <li>stuffed bear</li>
+            </ol>
+        </div>
+        <table class="alt_table">
+            <tr>
+                <th>Class</th>
+                <th>Professor</th>
+                <th>Comments</th>
+            </tr>
+            <tr>
+                <td>Calculus 3</td>
+                <td>Prof. Tough Guy</td>
+                <td>He's very strong</td>
+            </tr>
+            <tr>
+                <td>Physics 2</td>
+                <td>Prof. Fast runner</td>
+                <td>He runs very fast</td>
+            </tr>
+            <tr>
+                <td>Chemistry 2</td>
+                <td>Prof. Mean Lady</td>
+                <td>She's very mean</td>
+            </tr>
+        </table>
+        <div class="element">
+            <form action="form.php" method="post">
+                <label>Email Address: </label>
+                <input type="text" name ="email" required="on"><br>
+                <label>First Name:</label>
+                <input type="text" name="fName" required="on"><br>
+                <label>Last Name:</label>
+                <input type="text" name="lName" required="on"><br>
+                <label>Phone Number:</label>
+                <input type="number" name="num" required="on"><br>
+                <label>Address: </label>
+                <input type="text" name="addy" required="on"><br><br>
+                <label>
+                    <input type="checkbox" name="terms" required="on">
+                    I agree to the <a href="#">Terms and Conditions</a>
+                <button>Send</button>
+            </form>
+        </div>
+        
+    </div>
+</body>
+
+</html>

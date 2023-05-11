@@ -1,0 +1,104 @@
+body{
+    background-color: #333;
+    color: orangered;
+}
+
+.lightmode {
+    background-color: white;
+    color: white;
+}
+
+h1{
+    background-color: black;
+}
+
+.navbar{
+    background-color: #333;
+    overflow: hidden;
+}
+
+#active {
+    background-color: orangered;
+    color: #333;
+}
+
+.navbar a{
+    display: block;
+    color: antiquewhite;
+    text-decoration: none;
+    float: left;
+    padding: 15px 15px;
+    font-size: large;
+    
+}
+
+.dropdown{
+    float: left;
+}
+
+.dropdown .button{
+    border: none;
+    outline: none;
+    color: whitesmoke;
+    background-color: #333;
+    padding: 15px 15px;
+    font-size: large;
+    font-family: inherit;
+}
+
+.content{
+    display: none;
+    position: absolute;
+    background-color: #333;
+}
+
+.content a{
+    float: none;
+}
+
+.dropdown:hover .content{
+    display: block;
+}
+
+.navbar a:hover, .dropdown:hover .button{
+    background-color: #222;
+    color: orangered;
+}
+
+#calcProf{
+    background-color: antiquewhite;
+}
+
+#physicsProf{
+    background-color: darkslategrey;
+}
+
+#chemProf {
+    background-color: black;
+}
+
+.headTable{
+    font-size: x-large;
+    font-style: oblique;
+}
+
+.container{
+    display: flex;
+    background-color: #222;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.element{
+    margin: 8px;
+    background-color: #333;
+    text-align: center;
+    padding: 25px;
+}
+
+.alt_table {
+    border-color: black;
+    border-width: 5px;
+}
+
+
